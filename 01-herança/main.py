@@ -8,9 +8,15 @@ moto_rx1 = Moto('Subaru', 'Trilha', 'Casual')
 moto_bmx = Moto('Yahama', 'Rua', 'Esportiva')
 moto_50tinha = Moto('Toyota', 'Caseira', 'Casual')
 
+'''
 print(carro_suv)
 print(carro_hb20)
 print(carro_polo)
 print(moto_rx1)
 print(moto_bmx)
 print(moto_50tinha)
+'''
+
+Carro.listar_veiculos()
+print('')
+Moto.listar_veiculos()
