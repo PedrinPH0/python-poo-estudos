@@ -1,5 +1,6 @@
 from modelos.carro import Carro
 from modelos.moto import Moto
+from modelos.veiculo import Veiculo
 
 carro_suv = Carro('Ford', 'Territory', 6)
 carro_hb20 = Carro('Hyundai', 'Sense', 4)
@@ -20,3 +21,5 @@ print(moto_50tinha)
 Carro.listar_veiculos()
 print('')
 Moto.listar_veiculos()
+print('')
+Veiculo.listar_veiculos()
